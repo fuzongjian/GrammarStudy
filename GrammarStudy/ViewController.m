@@ -17,7 +17,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self OC_DIAN_SECOND];
+//    [self boundsandframe];
+    [self autorealease];
+    
+}
+#pragma mark --- autorelease的对象何时被释放
+// 内存爆涨的原因是产生的对象一直放在自动释放池中管理，内存得不到释放
+- (void)autorealease{
+//  看运行内存  memory 25  CPU 45
+    for (int i = 0; i < 100000; i ++) {
+        NSString * str = @"Fuzongjian";
+        str = [str lowercaseString];
+        str = [str stringByAppendingString:@"asd"];
+         NSLog(@"%@",str);
+    }
+//    看运行内存   memory  11.8    CPU  39%
+    for (int i = 0; i < 100000; i ++) {
+        @autoreleasepool {
+            NSString * str = @"Fuzongjian";
+            str = [str lowercaseString];
+            str = [str stringByAppendingString:@"asd"];
+            NSLog(@"%@",str);// 看内存  CPU 39  memory 11.8
+        }
+        
+    }
+    
     
 }
 #pragma mark --- 属性声明的关键词
@@ -57,6 +81,30 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+#pragma mark --- 一般性的问题
+#pragma mark --- bounds和frame的区别
+- (void)boundsandframe{
+    //  视图上放一块view
+    UIView * bg = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 200, 200)];
+   
+    bg.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:bg];
+    
+    // 在放两块小View
+    
+    // bounds 默认的起点坐标(0,0);
+    UIView * first = [[UIView alloc] initWithFrame:bg.bounds];
+    first.backgroundColor = [UIColor redColor];
+    [self.view addSubview:first];
+    
+    
+    UIView * second = [[UIView alloc] initWithFrame:bg.frame];
+    second.backgroundColor = [UIColor blueColor];
+    [bg addSubview:second];
+    
+    
+     NSLog(@"%@---%@",NSStringFromCGRect(first.frame),NSStringFromCGRect(second.frame));
 }
 
 @end

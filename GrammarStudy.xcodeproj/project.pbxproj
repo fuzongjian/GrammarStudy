@@ -54,6 +54,8 @@
 		50473EAB1CC879A100E3F847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50473EB71CC879F600E3F847 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		50473EB81CC879F600E3F847 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		50473EBA1CC89DE600E3F847 /* 基础知识.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "基础知识.h"; sourceTree = "<group>"; };
+		508E1E781CDAFBCF00BE013D /* 代码规范.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "代码规范.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +106,21 @@
 		50473E831CC879A100E3F847 /* GrammarStudy */ = {
 			isa = PBXGroup;
 			children = (
+				508E1E7B1CDB14E300BE013D /* Controllers */,
+				508E1E811CDB14E300BE013D /* Views */,
+				508E1E791CDB14E300BE013D /* Category */,
+				508E1E7A1CDB14E300BE013D /* Common */,
+				508E1E7C1CDB14E300BE013D /* Extensions */,
+				508E1E7D1CDB14E300BE013D /* Libs */,
+				508E1E7E1CDB14E300BE013D /* Models */,
+				508E1E7F1CDB14E300BE013D /* Services */,
+				508E1E801CDB14E300BE013D /* Sources */,
 				50473E871CC879A100E3F847 /* AppDelegate.h */,
 				50473E881CC879A100E3F847 /* AppDelegate.m */,
 				50473E8A1CC879A100E3F847 /* ViewController.h */,
 				50473E8B1CC879A100E3F847 /* ViewController.m */,
+				50473EBA1CC89DE600E3F847 /* 基础知识.h */,
+				508E1E781CDAFBCF00BE013D /* 代码规范.h */,
 				50473EB71CC879F600E3F847 /* Person.h */,
 				50473EB81CC879F600E3F847 /* Person.m */,
 				50473E8D1CC879A100E3F847 /* Main.storyboard */,
@@ -143,6 +156,69 @@
 				50473EAB1CC879A100E3F847 /* Info.plist */,
 			);
 			path = GrammarStudyUITests;
+			sourceTree = "<group>";
+		};
+		508E1E791CDB14E300BE013D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		508E1E7A1CDB14E300BE013D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		508E1E7B1CDB14E300BE013D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		508E1E7C1CDB14E300BE013D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		508E1E7D1CDB14E300BE013D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		508E1E7E1CDB14E300BE013D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		508E1E7F1CDB14E300BE013D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		508E1E801CDB14E300BE013D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		508E1E811CDB14E300BE013D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
