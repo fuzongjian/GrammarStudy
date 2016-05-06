@@ -9,18 +9,29 @@
 #import "ViewController.h"
 #import "Person.h"
 @interface ViewController ()
-
+@property (nonatomic,strong) UIView * smallView;
 @end
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    UIView * small = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    small.center = self.view.center;
+    small.backgroundColor = [UIColor redColor];
+    _smallView = small;
+    [self.view addSubview:small];
+    
+    
 //    [self boundsandframe];
-    [self autorealease];
+//    [self autorealease];
+    [self OC_DIAN];
     
 }
+
 #pragma mark --- autorelease的对象何时被释放
 // 内存爆涨的原因是产生的对象一直放在自动释放池中管理，内存得不到释放
 - (void)autorealease{
@@ -44,6 +55,7 @@
     
     
 }
+// TODO: 我们接下来准备做什么
 #pragma mark --- 属性声明的关键词
 /**@property可以自动生成某个成员变量的set和get方法的声明
  * @synthsize可以自动生成某个成员变量的set和get方法的实现
@@ -62,6 +74,8 @@
 
 - (void)OC_DIAN{
     
+    NSArray * array = [NSArray arrayWithObjects:@"fu",@"zong",@"jian" ,nil];
+    
     Person * person = [[Person alloc] init];
     
     [person personMethod];
@@ -69,7 +83,7 @@
     // 调用setter方法，涉及到值得变化  [person setName:@"fuzongjian"];
     person.name = @"fuzongjian";
     // 调用getter方法，只是获取值，并没有改变值  [person name];
-    NSLog(@"%@",person.name);
+    NSLog(@"---%@----年龄%d---%@",person.name,person.age,array);
 
 }
 /**

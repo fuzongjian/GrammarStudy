@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		504570B11CDC374D0027BF51 /* 常用的技巧和工具.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "常用的技巧和工具.h"; sourceTree = "<group>"; };
+		504570B21CDC37F30027BF51 /* 内存问题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "内存问题.h"; sourceTree = "<group>"; };
 		50473E811CC879A100E3F847 /* GrammarStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammarStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50473E851CC879A100E3F847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50473E871CC879A100E3F847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,10 +121,12 @@
 				50473E881CC879A100E3F847 /* AppDelegate.m */,
 				50473E8A1CC879A100E3F847 /* ViewController.h */,
 				50473E8B1CC879A100E3F847 /* ViewController.m */,
-				50473EBA1CC89DE600E3F847 /* 基础知识.h */,
-				508E1E781CDAFBCF00BE013D /* 代码规范.h */,
 				50473EB71CC879F600E3F847 /* Person.h */,
 				50473EB81CC879F600E3F847 /* Person.m */,
+				50473EBA1CC89DE600E3F847 /* 基础知识.h */,
+				508E1E781CDAFBCF00BE013D /* 代码规范.h */,
+				504570B11CDC374D0027BF51 /* 常用的技巧和工具.h */,
+				504570B21CDC37F30027BF51 /* 内存问题.h */,
 				50473E8D1CC879A100E3F847 /* Main.storyboard */,
 				50473E901CC879A100E3F847 /* Assets.xcassets */,
 				50473E921CC879A100E3F847 /* LaunchScreen.storyboard */,

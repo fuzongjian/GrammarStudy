@@ -13,7 +13,7 @@
     //定义成员变量
     NSString * _name;
 }
-
+@property (nonatomic,assign) NSInteger  age;
 - (void)setName:(NSString *)name;
 - (NSString *)name;
 

@@ -9,7 +9,14 @@
 #import "Person.h"
 
 @implementation Person
-
+//  重写构造方法，赋初始值
+- (id)init{
+    self = [super init];
+    if (self) {
+        _age = 10;
+    }
+    return self;
+}
 - (void)setName:(NSString *)name{
     NSLog(@"setter");
     if (_name!= name ) {
