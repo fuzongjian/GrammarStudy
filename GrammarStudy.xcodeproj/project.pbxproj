@@ -16,6 +16,7 @@
 		50473E9F1CC879A100E3F847 /* GrammarStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50473E9E1CC879A100E3F847 /* GrammarStudyTests.m */; };
 		50473EAA1CC879A100E3F847 /* GrammarStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50473EA91CC879A100E3F847 /* GrammarStudyUITests.m */; };
 		50473EB91CC879F600E3F847 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 50473EB81CC879F600E3F847 /* Person.m */; };
+		507C08B61CDD765A00E8024B /* protocolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C08B51CDD765A00E8024B /* protocolController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		50473EB71CC879F600E3F847 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		50473EB81CC879F600E3F847 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		50473EBA1CC89DE600E3F847 /* 基础知识.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "基础知识.h"; sourceTree = "<group>"; };
+		507C08B41CDD765A00E8024B /* protocolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocolController.h; sourceTree = "<group>"; };
+		507C08B51CDD765A00E8024B /* protocolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = protocolController.m; sourceTree = "<group>"; };
 		508E1E781CDAFBCF00BE013D /* 代码规范.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "代码规范.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +124,8 @@
 				50473E881CC879A100E3F847 /* AppDelegate.m */,
 				50473E8A1CC879A100E3F847 /* ViewController.h */,
 				50473E8B1CC879A100E3F847 /* ViewController.m */,
+				507C08B41CDD765A00E8024B /* protocolController.h */,
+				507C08B51CDD765A00E8024B /* protocolController.m */,
 				50473EB71CC879F600E3F847 /* Person.h */,
 				50473EB81CC879F600E3F847 /* Person.m */,
 				50473EBA1CC89DE600E3F847 /* 基础知识.h */,
@@ -356,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50473E8C1CC879A100E3F847 /* ViewController.m in Sources */,
+				507C08B61CDD765A00E8024B /* protocolController.m in Sources */,
 				50473E891CC879A100E3F847 /* AppDelegate.m in Sources */,
 				50473EB91CC879F600E3F847 /* Person.m in Sources */,
 				50473E861CC879A100E3F847 /* main.m in Sources */,

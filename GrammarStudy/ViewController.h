@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "protocolController.h"
+@interface ViewController : UIViewController<protocolReturn>
 
 
 @end

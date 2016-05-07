@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Person.h"
+
 @interface ViewController ()
 @property (nonatomic,strong) UIView * smallView;
 @end
@@ -19,11 +20,19 @@
     [super viewDidLoad];
     
     
-    UIView * small = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
-    small.center = self.view.center;
-    small.backgroundColor = [UIColor redColor];
-    _smallView = small;
-    [self.view addSubview:small];
+//    UIView * small = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+//    small.center = self.view.center;
+//    small.backgroundColor = [UIColor colorWithRed:0.078 green:0.039 blue:1.000 alpha:1.000];
+//    _smallView = small;
+//    [self.view addSubview:small];
+    
+    
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.frame = CGRectMake(0, 0, 100, 100);
+    button.center = self.view.center;
+    [button setTitle:@"点我" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     
     
 //    [self boundsandframe];
@@ -31,7 +40,13 @@
     [self OC_DIAN];
     
 }
-
+- (void)returnSomething:(NSString *)str{
+     NSLog(@"协议---%@",str);
+}
+- (void)buttonClicked:(UIButton *)sender{
+    protocolController * protocol = [[protocolController alloc] init];
+    [self.navigationController pushViewController:protocol animated:YES];
+}
 #pragma mark --- autorelease的对象何时被释放
 // 内存爆涨的原因是产生的对象一直放在自动释放池中管理，内存得不到释放
 - (void)autorealease{

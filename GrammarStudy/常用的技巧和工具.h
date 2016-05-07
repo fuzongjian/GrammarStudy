@@ -18,7 +18,8 @@
  
  
  2、Xcode常用技巧
-    2.1 常用插件
+    2.1 常用插件 ---  （Alcatraz插件管理）
+ 
     a、项目代码的可读性公司相当重视   -------    注释 VVDocument
     b、快速找到项目中的信息          -------    XTodo （ctrl + t）
         ctrl + shift + t   TODO:
@@ -26,7 +27,10 @@
         ctrl + shift + 1   !!!:
         ctrl + shift + q   ???:
     c、系统代码自动匹配(只需要模糊记得某些就ok)            --------  FuzzyAutocomplete
+    d、颜色插件，可以调起颜色面板，根据需要调节颜色               ColorSense
     
+ 
+ 
  
     2.2 调试技巧
     a、LLDB是Xcode内置的为我们开发者提供的调试工具。
