@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5007F5FF1CE170460028617F /* 高德地图研究学习.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "高德地图研究学习.h"; sourceTree = "<group>"; };
 		504570B11CDC374D0027BF51 /* 常用的技巧和工具.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "常用的技巧和工具.h"; sourceTree = "<group>"; };
 		504570B21CDC37F30027BF51 /* 内存问题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "内存问题.h"; sourceTree = "<group>"; };
 		50473E811CC879A100E3F847 /* GrammarStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammarStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +133,7 @@
 				508E1E781CDAFBCF00BE013D /* 代码规范.h */,
 				504570B11CDC374D0027BF51 /* 常用的技巧和工具.h */,
 				504570B21CDC37F30027BF51 /* 内存问题.h */,
+				5007F5FF1CE170460028617F /* 高德地图研究学习.h */,
 				50473E8D1CC879A100E3F847 /* Main.storyboard */,
 				50473E901CC879A100E3F847 /* Assets.xcassets */,
 				50473E921CC879A100E3F847 /* LaunchScreen.storyboard */,
