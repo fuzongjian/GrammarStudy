@@ -138,6 +138,11 @@
  19、OC常见的数据类型有哪些？
     OC常见数据类型：NSString、NSNumber、NSArray、NSMutableArray、NSData等，这些都是类，创建后才是对象。
  
+ 20、NULL - nil - Nil - NSNULL
+    nil是OC的，空对象，地址指向空（0）的对象，对象字面零值
+    Nil是Objective-C类的字面零值
+    NULL是C的，空地址，地址的数值是0，是个长整数
+    NSNUll用于解决想NSArray和NSDictionary等集合中添加空值的问题
  
  
  
