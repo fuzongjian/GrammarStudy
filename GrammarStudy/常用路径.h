@@ -26,8 +26,9 @@
      
      证书路径
      ~/Library/MobileDevice/Provisioning Profiles
- 
- 
+    
+     Xcode模拟器路径
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport
  
  */
 

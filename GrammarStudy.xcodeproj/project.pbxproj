@@ -17,6 +17,7 @@
 		50473EAA1CC879A100E3F847 /* GrammarStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50473EA91CC879A100E3F847 /* GrammarStudyUITests.m */; };
 		50473EB91CC879F600E3F847 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 50473EB81CC879F600E3F847 /* Person.m */; };
 		507C08B61CDD765A00E8024B /* protocolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C08B51CDD765A00E8024B /* protocolController.m */; };
+		50FB0F961CEC4FDE0036F725 /* 全局断点定位crash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 50FB0F951CEC4FDE0036F725 /* 全局断点定位crash.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		507C08B41CDD765A00E8024B /* protocolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocolController.h; sourceTree = "<group>"; };
 		507C08B51CDD765A00E8024B /* protocolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = protocolController.m; sourceTree = "<group>"; };
 		508E1E781CDAFBCF00BE013D /* 代码规范.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "代码规范.h"; sourceTree = "<group>"; };
+		50FB0F951CEC4FDE0036F725 /* 全局断点定位crash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "全局断点定位crash.gif"; sourceTree = "<group>"; };
+		50FB0F971CEC53AF0036F725 /* AppStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,7 @@
 				503DB8491CE95D0800B6B32D /* 生命周期.h */,
 				508E1E781CDAFBCF00BE013D /* 代码规范.h */,
 				504570B11CDC374D0027BF51 /* 常用的技巧和工具.h */,
+				50FB0F971CEC53AF0036F725 /* AppStore.h */,
 				504570B21CDC37F30027BF51 /* 内存问题.h */,
 				5007F5FF1CE170460028617F /* 高德地图研究学习.h */,
 				50473E8D1CC879A100E3F847 /* Main.storyboard */,
@@ -227,6 +231,7 @@
 		508E1E801CDB14E300BE013D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				50FB0F951CEC4FDE0036F725 /* 全局断点定位crash.gif */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -342,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50473E941CC879A100E3F847 /* LaunchScreen.storyboard in Resources */,
+				50FB0F961CEC4FDE0036F725 /* 全局断点定位crash.gif in Resources */,
 				50473E911CC879A100E3F847 /* Assets.xcassets in Resources */,
 				50473E8F1CC879A100E3F847 /* Main.storyboard in Resources */,
 			);
