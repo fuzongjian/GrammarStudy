@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		50096CA51CED351E00FB0E88 /* git常用指令.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50096CA41CED351E00FB0E88 /* git常用指令.jpg */; };
+		50096CA81CED5ADD00FB0E88 /* 多线程.png in Resources */ = {isa = PBXBuildFile; fileRef = 50096CA71CED5ADD00FB0E88 /* 多线程.png */; };
+		50096CAC1CED64A100FB0E88 /* App开发流程.png in Resources */ = {isa = PBXBuildFile; fileRef = 50096CAB1CED64A100FB0E88 /* App开发流程.png */; };
 		50473E861CC879A100E3F847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50473E851CC879A100E3F847 /* main.m */; };
 		50473E891CC879A100E3F847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50473E881CC879A100E3F847 /* AppDelegate.m */; };
 		50473E8C1CC879A100E3F847 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50473E8B1CC879A100E3F847 /* ViewController.m */; };
@@ -43,6 +45,11 @@
 		50096CA21CED330300FB0E88 /* SVN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVN.h; sourceTree = "<group>"; };
 		50096CA31CED342900FB0E88 /* Git.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Git.h; sourceTree = "<group>"; };
 		50096CA41CED351E00FB0E88 /* git常用指令.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "git常用指令.jpg"; sourceTree = "<group>"; };
+		50096CA61CED380700FB0E88 /* 多线程知识总结.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "多线程知识总结.h"; sourceTree = "<group>"; };
+		50096CA71CED5ADD00FB0E88 /* 多线程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "多线程.png"; sourceTree = "<group>"; };
+		50096CA91CED61DE00FB0E88 /* UNIX常用命令.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UNIX常用命令.h"; sourceTree = "<group>"; };
+		50096CAA1CED63A000FB0E88 /* App开发流程.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App开发流程.h"; sourceTree = "<group>"; };
+		50096CAB1CED64A100FB0E88 /* App开发流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App开发流程.png"; sourceTree = "<group>"; };
 		503DB8481CE95CFB00B6B32D /* 布局相关问题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "布局相关问题.h"; sourceTree = "<group>"; };
 		503DB8491CE95D0800B6B32D /* 生命周期.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "生命周期.h"; sourceTree = "<group>"; };
 		503DB84A1CE95D7C00B6B32D /* 常用路径.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "常用路径.h"; sourceTree = "<group>"; };
@@ -150,6 +157,9 @@
 				5007F5FF1CE170460028617F /* 高德地图研究学习.h */,
 				50096CA21CED330300FB0E88 /* SVN.h */,
 				50096CA31CED342900FB0E88 /* Git.h */,
+				50096CA61CED380700FB0E88 /* 多线程知识总结.h */,
+				50096CA91CED61DE00FB0E88 /* UNIX常用命令.h */,
+				50096CAA1CED63A000FB0E88 /* App开发流程.h */,
 				50473E8D1CC879A100E3F847 /* Main.storyboard */,
 				50473E901CC879A100E3F847 /* Assets.xcassets */,
 				50473E921CC879A100E3F847 /* LaunchScreen.storyboard */,
@@ -239,6 +249,8 @@
 			children = (
 				50FB0F951CEC4FDE0036F725 /* 全局断点定位crash.gif */,
 				50096CA41CED351E00FB0E88 /* git常用指令.jpg */,
+				50096CA71CED5ADD00FB0E88 /* 多线程.png */,
+				50096CAB1CED64A100FB0E88 /* App开发流程.png */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -353,11 +365,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50096CA81CED5ADD00FB0E88 /* 多线程.png in Resources */,
 				50473E941CC879A100E3F847 /* LaunchScreen.storyboard in Resources */,
 				50FB0F961CEC4FDE0036F725 /* 全局断点定位crash.gif in Resources */,
 				50473E911CC879A100E3F847 /* Assets.xcassets in Resources */,
 				50473E8F1CC879A100E3F847 /* Main.storyboard in Resources */,
 				50096CA51CED351E00FB0E88 /* git常用指令.jpg in Resources */,
+				50096CAC1CED64A100FB0E88 /* App开发流程.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
