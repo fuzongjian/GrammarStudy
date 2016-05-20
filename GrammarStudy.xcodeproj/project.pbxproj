@@ -77,6 +77,7 @@
 		507C08B41CDD765A00E8024B /* protocolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocolController.h; sourceTree = "<group>"; };
 		507C08B51CDD765A00E8024B /* protocolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = protocolController.m; sourceTree = "<group>"; };
 		508E1E781CDAFBCF00BE013D /* 代码规范.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "代码规范.h"; sourceTree = "<group>"; };
+		50C0AEF61CEED99D00F7588C /* 状态码.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "状态码.h"; sourceTree = "<group>"; };
 		50FB0F951CEC4FDE0036F725 /* 全局断点定位crash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "全局断点定位crash.gif"; sourceTree = "<group>"; };
 		50FB0F971CEC53AF0036F725 /* AppStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +161,7 @@
 				50096CA61CED380700FB0E88 /* 多线程知识总结.h */,
 				50096CA91CED61DE00FB0E88 /* UNIX常用命令.h */,
 				50096CAA1CED63A000FB0E88 /* App开发流程.h */,
+				50C0AEF61CEED99D00F7588C /* 状态码.h */,
 				50473E8D1CC879A100E3F847 /* Main.storyboard */,
 				50473E901CC879A100E3F847 /* Assets.xcassets */,
 				50473E921CC879A100E3F847 /* LaunchScreen.storyboard */,
